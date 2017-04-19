@@ -1,0 +1,26 @@
+<!-- The dialog typescript needs html like this somwhere under body  -->
+<div id="overlay">
+    <!-- Required -->
+    <div class="dialog" id="messageBox">
+        <div class="caption">Information</div>
+        <div class="content">
+            <div class="message">A message.</div>
+        </div>
+        <button class="accept" type="button">OK</button>
+        <button class="cancel" type="button">Cancel</button>
+    </div>
+    <!-- Optional example -->
+    <div class="dialog" id="login">
+        <div class="caption"><i class="fa fa-cloud-upload"></i>Sign In</div>
+        <div class="content">
+            <form method="POST" action="/?method=login">
+                <label for="name">User:</label>
+                <input type="text" id="name" name="name">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </form>
+        </div>
+        <button class="accept" type="button">Sign In</button>
+        <button class="cancel" type="button">Cancel</button>
+    </div>
+</div>
